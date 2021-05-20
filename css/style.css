@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*-------------------------
+    初期値
+-------------------------*/
+body {
+    padding-top: 73px;
+}
+
+.btn-primary {
+    background-color: #8e44ad;
+    border: 1px solid #8e44ad;
+}
+
+.btn-primary:hover {
+    background-color: #7e349d;
+    border: 1px solid #7e349d;
+}
+footer a {
+    color: #8e44ad;
+}
+footer a:hover {
+    color: #7e349d;
+}
+
+/*-------------------------
+    トップ
+-------------------------*/
+.topics p {
+    text-align: justify;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+}
